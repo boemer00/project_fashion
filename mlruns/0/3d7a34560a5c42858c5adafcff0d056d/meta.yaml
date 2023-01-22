@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/renatoboemer/Desktop/project_fashion/mlruns/0/3d7a34560a5c42858c5adafcff0d056d/artifacts
+end_time: 1674383344514
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d7a34560a5c42858c5adafcff0d056d
+run_name: enthused-mule-596
+run_uuid: 3d7a34560a5c42858c5adafcff0d056d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674383243787
+status: 3
+tags: []
+user_id: renatoboemer
