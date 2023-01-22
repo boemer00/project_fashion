@@ -2,8 +2,7 @@
 
 This project is a simple implementation of a Convolutional Neural Network (CNN) to classify images of clothing from the Fashion-MNIST dataset.
 
-![](https://storage.googleapis.com/tfds-data/visualization/fig/fashion_mnist-3.0.1.png)
-
+![](fashion.png)
 
 ## Key Requirements
 Matplotlib
@@ -15,8 +14,9 @@ Tensorflow
 
 ## Installation
 You can install all the required packages by running:
+**this is an example only!!, please DO NOT INSTALL**
 
-```pip install -r requirements.txt``` **--> sample only!!, DO NOT INSTALL**
+```pip install -r requirements.txt``` 
 
 ## Usage
 The main script is fashion.py which contains the Fashion class. The class provides the following functions:
