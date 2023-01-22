@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/renatoboemer/Desktop/project_fashion/mlruns/0/e065b3db07d24afd9671255af3ca72eb/artifacts
+end_time: 1674406170580
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e065b3db07d24afd9671255af3ca72eb
+run_name: intrigued-wren-359
+run_uuid: e065b3db07d24afd9671255af3ca72eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674406068013
+status: 3
+tags: []
+user_id: renatoboemer
