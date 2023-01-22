@@ -14,17 +14,17 @@ Tensorflow
 
 ## Installation
 You can install all the required packages by running:
-**this is an example only!!, please DO NOT INSTALL**
+**this is an example only!! Please DO NOT INSTALL**
 
 ```pip install -r requirements.txt``` 
 
 ## Usage
 The main script is fashion.py which contains the Fashion class. The class provides the following functions:
 
-- load_data(): loads the data from the Fashion-MNIST dataset and splits it into train and test sets.
-- transform_data(): normalises and reshapes the data, and converts the labels to categorical format.
-- get_data(): returns the train and test sets.
-- build_model(): builds and returns a CNN model.
+- **load_data()**: loads the data from the Fashion-MNIST dataset and splits it into train and test sets.
+- **transform_data()**: normalises and reshapes the data, and converts the labels to categorical format.
+- **get_data()**: returns the train and test sets.
+- **build_model()**: builds and returns a CNN model.
 You can use the class to train and evaluate the model by running:
 
 ```python lib.py```
@@ -38,7 +38,7 @@ If you want to run the unit test cases, use the command:
 ```python -m unittest test_fashion.py```
 
 ## Note
-The script is using a fixed random_state (42) for splitting the data and for the model initialisation, if you want to change the random_state, you can do it by passing the parameter to the Fashion class, inside the load_data function.
+The script is using a fixed *random_state* (42) for splitting the data and for the model initialisation, if you want to change the random_state, you can do it by passing the parameter to the Fashion class, inside the load_data function.
 
 ## Contributions
 Pull requests and bug reports are welcome.
