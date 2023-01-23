@@ -5,15 +5,17 @@ This project is a simple implementation of a Convolutional Neural Network (CNN) 
 ![](fashion.png)
 
 ## Key Requirements
-Matplotlib
-Numpy
-Pandas
-Python 3.10.6
-Scikit-learn
-Tensorflow
+- Matplotlib
+- MLflow
+- Numpy
+- Pandas
+- Python 3.10.6
+- Scikit-learn
+- Tensorflow
 
 ## Installation
-You can install all the required packages by running:
+You can install all the required packages by running the command below:
+
 **this is an example only!! Please DO NOT INSTALL**
 
 ```pip install -r requirements.txt``` 
@@ -41,10 +43,10 @@ If you want to run the unit test cases, use the command:
 The script is using a fixed *random_state* (42) for splitting the data and for the model initialisation, if you want to change the random_state, you can do it by passing the parameter to the Fashion class, inside the load_data function.
 
 ## Contributions
-Pull requests and bug reports are welcome.
+Pull requests and bug reports are welcome :)
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/zalandoresearch/fashion-mnist/blob/master/LICENSE).
 
 ## Acknowledgments
 This project is inspired by the TensorFlow tutorials and the Fashion-MNIST dataset.
