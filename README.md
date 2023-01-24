@@ -42,6 +42,11 @@ If you want to run the unit test cases, use the command:
 ## Note
 The script is using a fixed *random_state* (42) for splitting the data and for the model initialisation, if you want to change the random_state, you can do it by passing the parameter to the Fashion class, inside the load_data function.
 
+## Results
+The Confusion Matrix below shows that the model predict correct **98.9%** of all `Trouser` images. However, the model was not so successful in predicting `Shirt`, achieving **84.1%** accuracy. One possible explanation to such a high accuracy is that trousers have a unique shape, whereas shirts have similar shapes to T-shirt/Top and Coat. This is interesting because it could explain the high numbers of misclassified images.
+
+![](confusion_matrix_renato_boemer.png)
+
 ## Contributions
 Pull requests and bug reports are welcome :)
 
