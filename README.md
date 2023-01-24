@@ -14,11 +14,9 @@ This project is a simple implementation of a Convolutional Neural Network (CNN) 
 - Tensorflow
 
 ## Installation
-You can install all the required packages by running the command below:
+You can clone this repository using git and then donwload the [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset:
 
-**this is an example only!! Please DO NOT INSTALL**
-
-```pip install -r requirements.txt``` 
+```$ git clone https://github.com/boemer00/project_fashion.git```
 
 ## Usage
 The main script is fashion.py which contains the Fashion class. The class provides the following functions:
