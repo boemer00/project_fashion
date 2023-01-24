@@ -19,7 +19,7 @@ You can clone this repository using git and then donwload the [Fashion-MNIST](ht
 ```$ git clone https://github.com/boemer00/project_fashion.git```
 
 ## Usage
-The main script is fashion.py which contains the Fashion class. The class provides the following functions:
+The main script is lib.py which contains the Fashion class. The class provides the following functions:
 
 - **load_data()**: loads the data from the Fashion-MNIST dataset and splits it into train and test sets.
 - **transform_data()**: normalises and reshapes the data, and converts the labels to categorical format.
