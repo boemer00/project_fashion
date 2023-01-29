@@ -2,7 +2,7 @@
 
 This project is a simple implementation of a Convolutional Neural Network (CNN) to classify images of clothing from the Fashion-MNIST dataset.
 
-![](fashion.png)
+![](images/images_sample.png)
 
 ## Key Requirements
 - Matplotlib
@@ -43,7 +43,7 @@ The script is using a fixed *random_state* (42) for splitting the data and for t
 ## Results
 The Confusion Matrix below shows that the model predict correct **98.9%** of all `Trouser` images. However, the model was not so successful in predicting `Shirt`, achieving **84.1%** accuracy. One possible explanation to such a high accuracy is that trousers have a unique shape, whereas shirts have similar shapes to T-shirt/Top and Coat. This is interesting because it could explain the high numbers of misclassified images.
 
-![](confusion_matrix_renato_boemer.png)
+![](images/confusion_matrix.png)
 
 ## Contributions
 Pull requests and bug reports are welcome :)
